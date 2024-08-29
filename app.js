@@ -2,7 +2,7 @@ const rect ={
     area :(x,y)=> x*y,
     parameter: (x,y) => 2*(x+y)
 };
-function rectangle(l,w){
+function solveRect(l,w){
     console.log(`The give rectangle with the value of ${l} length and ${w} width`);
     if(l<=0 || w<=0){
         console.log (`Rectangle dimenssions must be greater than zero, Recieved: ${l}, ${w}`);
@@ -12,7 +12,7 @@ function rectangle(l,w){
 
     }
 }
-rectangle(1,2);
-rectangle(2,3);
-rectangle(0,1);
-rectangle(1,0);
+solveRect(1,2);
+solveRect(2,3);
+solveRect(0,1);
+solveRect(1,0);
