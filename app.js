@@ -1,7 +1,4 @@
-const rect ={
-    area :(x,y)=> x*y,
-    parameter: (x,y) => 2*(x+y)
-};
+const rect =require('./rectangle.js');
 function solveRect(l,w){
     console.log(`The give rectangle with the value of ${l} length and ${w} width`);
     if(l<=0 || w<=0){
